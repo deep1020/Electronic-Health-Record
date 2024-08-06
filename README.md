@@ -57,6 +57,12 @@ The Electronic Health Record(EHR) system helps patients and hospitals to identif
    ```sh
    ng serve
 
+**Database**
+
+1. Set up the MySQL database:
+- Execute the SQL scripts located in the database directory to create the schema and populate initial data.
+
+
 ## Screenshots
 
 ![home_page](https://github.com/deep1020/Electronic-Health-Record/assets/114463998/0efea702-bf7d-417c-969a-187e1b1d5c75)
