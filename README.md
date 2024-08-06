@@ -45,6 +45,18 @@ The Electronic Health Record(EHR) system helps patients and hospitals to identif
    ```sh
    python app.py
 
+4. Navigate to the backend directory:
+   ```sh
+   cd frontend
+
+5. Install the Node.js dependencies:
+   ```sh
+   npm install
+
+6. Run the frontend application:
+   ```sh
+   ng serve
+
 ## Screenshots
 
 ![home_page](https://github.com/deep1020/Electronic-Health-Record/assets/114463998/0efea702-bf7d-417c-969a-187e1b1d5c75)
