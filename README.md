@@ -1,10 +1,51 @@
 # Electronic-Health-Record
 
-I have used Python as a back-end programming language along with the use of Machine Learning which helps us to classify people into 3 distinct categories and then with the use of Angular it is shown on a web application which uses MySQL as the database for the system.
+## Table of Contents
+
+- [Project Overview](#projectoverview)
+- [Tools, Technologies and Library](#ToolsTechnologiesLibrary)
+- [Dataset](#Dataset)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#apiendpoints)
+- [Screenshots](#screenshots)
+- [References](#references)
+
+## Project Overview
 
 The Electronic Health Record(EHR) system helps patients and hospitals to identify various categories of people based on their health status in the event of an situation like the covid-19 with the mechanism that the dataset is divided into 3 groups ; Group 1 (those who are "prone to fall ill"), Group 2 (those who are "moderate"), and Group 3 (those who are "immune or less likely to fall ill") categories.
 
-Here I have attached screenshots of user interface:
+## Technologies
+
+- Backend: Python
+- Frontend: HTML, CSS, Angular
+- Database: MySQL Workbench
+- Machine Learning: Numpy, Pandas, Matplotlib, Scikit-learn, KNN Classification
+
+## Installation
+
+**Prerequisites**
+- **Python**: [Download Python 3.10](https://www.python.org/downloads/)
+- **Node.js and npm**: [Download Node.js](https://nodejs.org/) (npm is included)
+- **Angular CLI**: Install globally using npm
+- **MySQL**: [Download MySQL](https://dev.mysql.com/downloads/installer/)
+- **VS Code**: [Download Visual Studio Code](https://code.visualstudio.com/download)
+
+**Steps**
+
+1. Navigate to the backend directory:
+   ```sh
+   cd backend
+
+2. Install the required Python packages:
+   ```sh
+    pip install -r requirements.txt
+
+3. Run the backend application:
+   ```sh
+   python app.py
+
+## Screenshots
 
 ![home_page](https://github.com/deep1020/Electronic-Health-Record/assets/114463998/0efea702-bf7d-417c-969a-187e1b1d5c75)
 ![menu](https://github.com/deep1020/Electronic-Health-Record/assets/114463998/9efb12a4-f8cd-4eab-abc6-284c56bd02f0)
