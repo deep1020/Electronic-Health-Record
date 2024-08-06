@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#projectoverview)
-- [Tools, Technologies and Library](#ToolsTechnologiesLibrary)
+- [Technologies](#Technologies)
 - [Dataset](#Dataset)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,6 +21,38 @@ The Electronic Health Record(EHR) system helps patients and hospitals to identif
 - Frontend: HTML, CSS, Angular
 - Database: MySQL Workbench
 - Machine Learning: Numpy, Pandas, Matplotlib, Scikit-learn, KNN Classification
+
+## Dataset
+
+The dataset is Electronic Health Record Predicting collected from a private Hospital in Indonesia. It contains the patients laboratory test results used to determine next patient treatment whether in care or out care patient. The task embedded to the dataset is classification prediction.
+
+**Attributes**
+
+Given is the attribute name, attribute type, the measurement unit and a brief description. The number of rings is the value to predict: either as a continuous value or as a classification problem. 
+
+**Name/ Data Type/ Value Sample/ Description**
+
+HAEMATOCRIT /Continuous /35.1 / Patient laboratory test result of haematocrit
+
+HAEMOGLOBINS/Continuous/11.8 / Patient laboratory test result of haemoglobins
+
+ERYTHROCYTE/Continuous/4.65 /  Patient laboratory test result of erythrocyte
+
+LEUCOCYTE	/Continuous /6.3 / Patient laboratory test result of leucocyte
+
+THROMBOCYTE/Continuous/310/ Patient laboratory test result of thrombocyte
+
+MCH/Continuous /25.4/ Patient laboratory test result of MCH
+
+MCHC/Continuous/33.6/ Patient laboratory test result of MCHC
+
+MCV/Continuous /75.5/ Patient laboratory test result of MCV
+
+AGE/Continuous/12/ Patient age
+
+SEX/Nominal – Binary/F/ Patient gender
+
+SOURCE/Nominal/ {in,out}/The class target in.= in care patient, out = out care patient   
 
 ## Installation
 
@@ -62,6 +94,9 @@ The Electronic Health Record(EHR) system helps patients and hospitals to identif
 1. Set up the MySQL database:
 - Execute the SQL scripts located in the database directory to create the schema and populate initial data.
 
+## API Endpoints
+
+<img width="957" alt="Screenshot 2024-08-06 at 2 12 03 PM" src="https://github.com/user-attachments/assets/33b6feba-5540-46c3-afb9-5195e63e0a67">
 
 ## Screenshots
 
@@ -69,6 +104,12 @@ The Electronic Health Record(EHR) system helps patients and hospitals to identif
 ![menu](https://github.com/deep1020/Electronic-Health-Record/assets/114463998/9efb12a4-f8cd-4eab-abc6-284c56bd02f0)
 ![fetch_records](https://github.com/deep1020/Electronic-Health-Record/assets/114463998/1aaf70f5-67a4-4498-9733-09ed1c6f071b)
 ![insert_records](https://github.com/deep1020/Electronic-Health-Record/assets/114463998/9ddc8069-1581-472a-adb3-c298d637e7d6)
+
+## References
+
+1. [Dataset Information] (https://www.kaggle.com/datasets)
+2. [K Nearest Neighbor(KNN) Classification] (https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn)
+3. [AngularJS] (https://angularjs.org/)
 
 
 
